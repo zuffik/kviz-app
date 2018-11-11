@@ -1,0 +1,64 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react"
+  ],
+  "jsRules": {
+    "indent": [
+      true,
+      "spaces",
+      2
+    ]
+  },
+  "rules": {
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "no-object-literal-type-assertion": false,
+    "jsx-no-lambda": false,
+    "jsx-wrap-multiline": false,
+    "quotemark": false,
+    "interface-name": false,
+    "trailing-comma": false,
+    "no-consecutive-blank-lines": [
+      true,
+      2
+    ],
+    "array-type": false,
+    "no-string-literal": false,
+    "ordered-imports": false,
+    "member-access": false,
+    "jsx-no-multiline-js": false,
+    "member-ordering": false,
+    "arrow-parens": false,
+    "object-literal-sort-keys": false,
+    "semicolon": [
+      true,
+      "always",
+      "strict-bound-class-methods"
+    ],
+    "jsx-alignment": false,
+    "max-classes-per-file": false,
+    "no-submodule-imports": false,
+    "jsx-boolean-value": false,
+    "jsx-curly-spacing": false,
+    "no-console": [
+      true,
+      "log",
+      "warn"
+    ],
+    "no-shadowed-variable": false,
+    "one-variable-per-declaration": false,
+    "no-implicit-dependencies": [
+      true,
+      "dev"
+    ],
+    "no-var-requires": false,
+    "no-sparse-arrays": false,
+    "no-bitwise": false,
+    "jsx-key": true,
+    "unified-signatures": false
+  }
+}
