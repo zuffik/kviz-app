@@ -1,0 +1,3 @@
+rootProject.name = 'kvizapp'
+
+include ':app'
